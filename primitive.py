@@ -10,19 +10,20 @@ print("==== number ")
 # result2 = count.numerator # state
 # print(result1, result2)
 
-print("==== string ====")
-# methods: upper(), lower(), title(), find(), replace()
+# print("==== string ====")
+# # methods: upper(), lower(), title(), find(), replace()
 
-course = "AI Python FullStack"
-result = type(course)
-print(f"the result (1): {result}")
+# course = "AI Python FullStack"
+# result = type(course)
+# print(f"the result (1): {result}")
 
-result = course.title()
-print(f"the result (2): {result}")
+# result = course.title()
+# print(f"the result (2): {result}")
 
-result = course.upper()
-print(f"the result (3): {result}")
+# result = course.upper()
+# print(f"the result (3): {result}")
 
-course = course.replace("FullStack", "Master Class")
-print(f"the result (4): {result}")
-print(course)
+# course = course.replace("FullStack", "Master Class")
+# print(f"the result (4): {result}")
+# print(course)
+
