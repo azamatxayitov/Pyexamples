@@ -30,4 +30,15 @@ print("==== while operator ====")
 numb = 40
 while numb > 0:
     numb -= 10
-    print(f"the numb equals {numb}")                   
+    print(f"the numb equals {numb}")
+    
+print("----")
+count = 0
+while True:
+    count += 1
+    x = int(input("Find number: "))
+    if x == 41:
+        print(f"You found number in {count} steps")
+        break
+    else:
+        print("Wrong, please find again!")                       
