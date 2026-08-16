@@ -43,18 +43,59 @@
 # result2 = letters.pop(0) # pop front
 # print(f"the pop result2: {result2} and letters: {letters}")
 
-print("----")
-animals = ["dog", "cat", "capybara", "fish", "lion"]
-print("animals:", animals)
+# print("----")
+# animals = ["dog", "cat", "capybara", "fish", "lion"]
+# print("animals:", animals)
 
-animals.remove("lion")
-print("animals remove:", animals)
+# animals.remove("lion")
+# print("animals remove:", animals)
 
-del animals[2:4]
-print("animals delete:", animals)
+# del animals[2:4]
+# print("animals delete:", animals)
 
-exist = animals.index("cat")
-print("cat exist:", exist) 
+# exist = animals.index("cat")
+# print("cat exist:", exist) 
 
-animals.clear()
-print("animals clear:", animals)   
+# animals.clear()
+# print("animals clear:", animals)   
+
+# if "cat" in animals:
+#     print("index of cat:", animals.index("cat"))
+# else:
+#     print("cat does not exist")
+    
+# print("-----")
+# numbers = [2, 20, 12, 8, 57]
+# numbers.sort()
+# print("sort default:", numbers)
+# numbers.sort(reverse=True)
+# print("sort reverse:", numbers)
+
+# # immutable > sorted function & index() method
+# numbs = [2, 20, 12, 100]
+# new_numbs = sorted(numbs)
+# print(f"the sorted numbs: {numbs} and new_numbs: {new_numbs}")
+
+print("==== Lambda function ====")
+# lambda is well anonymous function!
+def calculate(x, y): return x * y
+
+result = calculate(3, 5)
+print("result:", result)
+
+people = [
+    ("Robert", 20),
+    ("Steve", 19),
+    ("Joseph", 25),
+    ("Michael", 30),
+    ("Ali", 40)
+]
+
+people.sort()
+print("people(1), people")
+
+# sort by age via lambda
+people.sort(key=lambda person: person[1])
+print("people(2)", people)
+
+        
