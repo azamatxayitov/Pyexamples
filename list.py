@@ -25,23 +25,36 @@
 # print("c", c)
 # print("d", d)
 
-print("==== List methods ====")
+# print("==== List methods ====")
 # method > append() insert() pop() remove() clear() sort() index()
 
-letters = ["a", "b", "c"] 
+# letters = ["a", "b", "c"] s
 
-letters.append("f") # add behind
-print(f"the append letters: {letters}")
+# letters.append("f") # add behind
+# print(f"the append letters: {letters}")
 
-letters.insert(0, "z") # add front
-print(f"the insert letters: {letters}")
+# letters.insert(0, "z") # add front
+# print(f"the insert letters: {letters}")
 
-size = len(letters) - 1
-result1 = letters.pop(size) # pop behind
-print(f"the pop result1: {result1} and letters: {letters}")
+# size = len(letters) - 1
+# result1 = letters.pop(size) # pop behind
+# print(f"the pop result1: {result1} and letters: {letters}")
 
-result2 = letters.pop(0) # pop front
-print(f"the pop result2: {result2} and letters: {letters}")
+# result2 = letters.pop(0) # pop front
+# print(f"the pop result2: {result2} and letters: {letters}")
 
+print("----")
+animals = ["dog", "cat", "capybara", "fish", "lion"]
+print("animals:", animals)
 
-    
+animals.remove("lion")
+print("animals remove:", animals)
+
+del animals[2:4]
+print("animals delete:", animals)
+
+exist = animals.index("cat")
+print("cat exist:", exist) 
+
+animals.clear()
+print("animals clear:", animals)   
