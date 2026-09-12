@@ -99,32 +99,32 @@
 # print("people(2)", people)
 
 # lambda 
-animals = ["dog", "cat", "fish"] # list 
-for element in enumerate(animals):
-    print("element:", element)
+# animals = ["dog", "cat", "fish"] # list 
+# for element in enumerate(animals):
+#     print("element:", element)
     
-for (index, value) in enumerate(animals):
-    print(f"the index: {index} and value: {value}")
+# for (index, value) in enumerate(animals):
+#     print(f"the index: {index} and value: {value}")
     
-print("-----")
-# map 
-cars = [
-    ("Ferrari", 78),
-    ("Toyota", 87),
-    ("Audi", 116),
-    ("BMW", 109),
-    ("Pagani", 33)
-] 
+# print("-----")
+# # map 
+# cars = [
+#     ("Ferrari", 78),
+#     ("Toyota", 87),
+#     ("Audi", 116),
+#     ("BMW", 109),
+#     ("Pagani", 33)
+# ] 
 
 
-result_map = map(lambda car: car[0], cars)
-print(f"the result_map: {result_map} and type: {type(result_map)}")
-new_cars = list(result_map)
-print("new_cars", new_cars)
+# result_map = map(lambda car: car[0], cars)
+# print(f"the result_map: {result_map} and type: {type(result_map)}")
+# new_cars = list(result_map)
+# print("new_cars", new_cars)
 
-print("------")
-# filter
-result_filter = filter(lambda car: car[1] > 80, cars)
-print(f"the result_filter: {result_filter} and type: {type(result_filter)}")
-print(list(result_filter))
+# print("------")
+# # filter
+# result_filter = filter(lambda car: car[1] > 80, cars)
+# print(f"the result_filter: {result_filter} and type: {type(result_filter)}")
+# print(list(result_filter))
 
