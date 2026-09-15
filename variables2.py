@@ -37,11 +37,12 @@
 # print("Sotib olinishi kerak bo'lganmahsulotlar qoldi", bozorlik)
 
 
-cars = ['bmw', 'mercedes', 'ferrari', 'jaguar', 'toyota', 'kia', 'hyundai']
-cars.sort(reverse=True)
-print(cars)
+# cars = ['bmw', 'mercedes', 'ferrari', 'jaguar', 'toyota', 'kia', 'hyundai']
+# cars.sort(reverse=True)
+# print(cars)
 
-print(len(cars))
+# print(len(cars))
 
-sonlar = list(range(0,10))
-print(sonlar)
+# sonlar = list(range(0,10))
+# print(sonlar)
+
