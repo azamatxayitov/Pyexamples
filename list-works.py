@@ -64,8 +64,21 @@
 #         print(avto.title())    
 
 
-ism = input("Ismingizni kiriting")
-if ism != 'ali':
-    print(f"Uzur, {(ism.title())} biz Alini kutayabmiz")
-else:
-    print("Salom Ali")    
+# ism = input("Ismingizni kiriting")
+# if ism != 'ali':
+#     print(f"Uzur, {(ism.title())} biz Alini kutayabmiz")
+# else:
+#     print("Salom Ali")    
+
+# yosh = int(input("Yoshingiz nechida ?"))
+# if yosh>=18:
+#     print('Xush kelibsiz')
+# else:
+#     print('Kirish mumkin emas')    
+
+# login = input("Yangi login tanlang:")
+# if len(login)<=5:
+#     print("Login besh harfdan ko'p bo'lishi kerak")
+    
+    
+         
