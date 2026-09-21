@@ -25,11 +25,13 @@
 #     print("Bugun ish kuni")
 
 
-kun = input("Bugun nima kun ?")
-harorat = float(input('Havo harorati qanday ? '))
-if kun.lower=='yakshanba' and harorat>=30:
-    print('chomilishga kettik')
-    print('Chomilish')
-elif kun.lower()=='yakshanba' and harorat<30:
-    print('Uyda qolamiz')
+# kun = input("Bugun nima kun ?")
+# harorat = float(input('Havo harorati qanday ? '))
+# if kun.lower=='yakshanba' and harorat>=30:
+#     print('chomilishga kettik')
+#     print('Chomilish')
+# elif kun.lower()=='yakshanba' and harorat<30:
+#     print('Uyda qolamiz')
                  
+                 
+ 
