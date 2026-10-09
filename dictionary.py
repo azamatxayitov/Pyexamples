@@ -33,6 +33,6 @@ talaba_2 = {
 
 # print(talaba_2.items())
 
-for kalit, qiymat in talaba_2.items():
-    print(f"Kalit: {kalit}")
-    print(f"Qiymat: {qiymat} \n")
+# for kalit, qiymat in talaba_2.items():
+#     print(f"Kalit: {kalit}")
+#     print(f"Qiymat: {qiymat} \n")
