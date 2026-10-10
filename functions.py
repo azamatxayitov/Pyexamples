@@ -25,14 +25,35 @@
 
 # Optional value
 
-def built_person(first_name, last_name, age=None):
-    """Return a dictionary with the person's name and optional age."""
-    person = {'first': first_name, 'last': last_name}
+# def built_person(first_name, last_name, age=None):
+#     """ Return persons name """
+#     person = {'first': 'first_name', 'last': 'last_name'}
+    
+#     if age:
+#         person['age'] = age
+#     return person
 
-    if age:
-        person['age'] = age
-    return person
+# musician = built_person('jimmi', 'hendrix', age=27)
+# print(musician)    
 
+unprinted_designs = ['robot', 'toy car', 'plastic hand', 'game simulator']
+completed_designs = []
 
-musician = built_person('jimmi', 'hendrix', age=27)
-print(musician)
+# while unprinted_designs:
+#     current_design = unprinted_designs.pop()
+#     print(f"Printing model: {current_design}")
+#     completed_designs.append(current_design)
+#     print("\n The following models are printed")
+#     for completed_design in completed_designs:
+#         print(completed_design)
+        
+def print_models(unprinted_designs, completed_design):
+    """
+        Simulate printing each design, until none are left.
+        Move each design to completed_models after printing.
+    """        
+    
+    while unprinted_designs:
+        current_design = unprinted_designs.pop()
+        print(f"Pinting model: {current_design}")
+        completed_designs.append(current_design)
